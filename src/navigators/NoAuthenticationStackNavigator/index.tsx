@@ -15,6 +15,7 @@ export const NoAuthenticationStackNavigator = (): JSX.Element => {
       <NoAuthenticationStack.Screen
         name={Routes.NoAuthenticationTop}
         component={NoAuthenticationTopSceen}
+        options={{ headerShown: false }}
       />
     </NoAuthenticationStack.Navigator>
   )
